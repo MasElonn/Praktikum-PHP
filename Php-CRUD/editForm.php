@@ -44,5 +44,6 @@
             ?>
 
         </form>
+        </table>
 </body>
 </html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="tambah.php" method="post" >
+    <h2>Tambah Product</h2>
+    <tr>
+        <td> Nama Produk </td>
+        <td> <input type="text" name="name" required></td>
+        <br>
+    </tr>
+    <tr>
+        <td> Harga </td>
+        <td><input type="number" name="harga" required></td>
+        <br>
+    </tr>
+    <tr>
+        <td> Merek </td>
+        <td> <input type="text" name="merek" required></td>
+        <br>
+    </tr>
+    <tr>
+        <td> Stok </td>
+        <td><input type="number" name="stock" required></td>
+        <br>
+    </tr>
+    </tr>
+    <tr><input type="submit" name="tambah" value="Tambah Data" class="add-btn"></tr>
+    <a href="index.php" class="add-btn" type="button">Kembali</a>
+</form>
+</body>
+</html>

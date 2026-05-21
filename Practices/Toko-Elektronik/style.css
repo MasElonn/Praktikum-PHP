@@ -1,0 +1,110 @@
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px rgba(0,0,0,0.1);
+    width: 500px;
+}
+
+h2{
+    text-align: center;
+    margin: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+textarea{
+    width: 100%;
+    padding: 10px 14px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #eef3ff;
+}
+button{
+    width: 100%;
+    padding: 12px;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 14px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+h2{
+    text-align: center;
+    margin: 20px;
+}
+.add-btn{
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 16px;
+    background-color: #0d6efd;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.table-wrapper{
+    overflow-x: auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th,td{
+    border: 1px solid #ccc;
+    padding: 10px 12px;
+}
+th{
+    background-color: #e9ecef;
+}
+.edit-btn,.delete-btn{
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.edit-btn{
+    background-color: #ffc107;
+    color: black;
+}
+.delete-btn{
+    background-color: #dc3545;
+    color: white;
+    margin-left: 5px;
+}
