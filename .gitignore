@@ -1,0 +1,11 @@
+# Ignore image files in riendra_penilaian folder (including subfolders)
+riendra_penilaian/**/*.jpg
+riendra_penilaian/**/*.jpeg
+riendra_penilaian/**/*.png
+
+
+# Ignore zip/archive files in root folder
+/*.zip
+/*.tar.gz
+/*.tar
+/*.gz
