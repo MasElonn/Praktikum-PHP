@@ -2,6 +2,7 @@
 riendra_penilaian/**/*.jpg
 riendra_penilaian/**/*.jpeg
 riendra_penilaian/**/*.png
+riendra_penilaian/**/*.webp
 
 
 # Ignore zip/archive files in root folder

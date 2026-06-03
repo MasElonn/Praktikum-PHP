@@ -28,7 +28,7 @@ if(!isset($_SESSION['login']) || !$_SESSION['login']){
             <?php
                 date_default_timezone_set('Asia/Jakarta');
                 $jam = (int)date('G');
-                echo "<a>".date('h:i A')."</a>";
+                echo "<a>" . date('d-m-Y') . "</a>";
 
 
                 if ($jam >= 4 && $jam < 10) {

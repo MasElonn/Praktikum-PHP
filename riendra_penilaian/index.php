@@ -1,6 +1,6 @@
 <?php
 session_start();
-if (isset($_SESSION['login']) && $_SESSION['login'] === true) {
+if (isset($_SESSION['login']) && $_SESSION['login']) {
     header("Location: home.php");
     exit();
 }
@@ -19,15 +19,18 @@ if (isset($_SESSION['login']) && $_SESSION['login'] === true) {
     <div class="container">
         <h2>Panel Login</h2>
         <hr>
+        <?php if (isset($_GET['p'])): ?>
+            <p style="color:red;"><?php echo $_GET['p']; ?></p>
+        <?php endif; ?>
         <form action="cek_login.php" method="post">
             <div class="form-control">
-                <input type="text" name="username" placeholder="Masukkn Username">
+                <input class="input" type="text" name="username" placeholder="Masukan Username">
             </div>
             <div class="form-control">
-                <input type="password" name="password" placeholder="Masukan password">
+                <input class="input" type="password" name="password" placeholder="Masukan password">
             </div>
             <div class="form-control">
-                <button type="submit">Login</button>
+                <button style="width: 100%" class="submit" type="submit">LOGIN</button>
             </div>
         </form>
     </div>
